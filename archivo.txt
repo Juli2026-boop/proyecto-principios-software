@@ -1,0 +1,52 @@
+Este es mi segundo cambio en el archivo
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Instale la versión más reciente de PowerShell para obtener nuevas características y mejoras. https://aka.ms/PSWindows
+
+PS C:\WINDOWS\system32> cd $HOME
+PS C:\Users\Usuario> cd Desktop
+PS C:\Users\Usuario\Desktop> dir
+
+
+    Directorio: C:\Users\Usuario\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----       2/02/2025  6:41 p. m.                ANDRES
+d-r---      23/02/2026  1:06 p. m.                JULIAN
+d-----      31/12/2022  6:17 p. m.                MUSICA
+d-----      26/04/2026  8:48 p. m.                proyecto-git
+-a----      11/07/2020  6:23 p. m.        3667408 AnyDesk.exe
+-a----      16/01/2026  7:28 p. m.         310825 Diploma Bachiller.jpg
+-a----       6/01/2026  8:57 p. m.         390272 Firefox.exe
+-a----      13/03/2025  2:17 p. m.       11769110 fotos mia y oriana.docx
+-a----      23/05/2023  2:53 p. m.        2329224 JavaSetup8u371.exe
+
+
+PS C:\Users\Usuario\Desktop> cd proyecto-git
+PS C:\Users\Usuario\Desktop\proyecto-git> dir
+PS C:\Users\Usuario\Desktop\proyecto-git> git init
+Initialized empty Git repository in C:/Users/Usuario/Desktop/proyecto-git/.git/
+PS C:\Users\Usuario\Desktop\proyecto-git> New-Item archivo.txt
+
+
+    Directorio: C:\Users\Usuario\Desktop\proyecto-git
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----      27/04/2026  8:13 p. m.              0 archivo.txt
+
+
+PS C:\Users\Usuario\Desktop\proyecto-git> git add archivo.txt
+PS C:\Users\Usuario\Desktop\proyecto-git> git commit -m "Primer archivo agregado"
+[master (root-commit) 446fcaa] Primer archivo agregado
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 archivo.txt
+PS C:\Users\Usuario\Desktop\proyecto-git> git add archivo.txt
+PS C:\Users\Usuario\Desktop\proyecto-git> git commit -m "Segundo cambio en archivo"
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\Usuario\Desktop\proyecto-git>
