@@ -49,4 +49,4 @@ PS C:\Users\Usuario\Desktop\proyecto-git> git add archivo.txt
 PS C:\Users\Usuario\Desktop\proyecto-git> git commit -m "Segundo cambio en archivo"
 On branch master
 nothing to commit, working tree clean
-PS C:\Users\Usuario\Desktop\proyecto-git>
+PS C:\Users\Usuario\Desktop\proyecto-git> Cambio hecho directamente en GitHub
